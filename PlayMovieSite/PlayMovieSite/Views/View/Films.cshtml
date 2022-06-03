@@ -1,0 +1,120 @@
+﻿@model List<PlayMovieSite.Models.Usuario>
+
+@{
+    ViewBag.Title = "Films";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/Content/Filmss.css"/>
+
+<style>
+    #imgUserH {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+
+<body>
+    <br/>
+    <header>
+        <div class="dropdown text-end" style="margin-right: 20px;">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="~/Imagenes/User.png" id="imgUserH" />
+            </a>
+        </div>
+    </header>
+    <div class="nombreSitio">
+        <div class="PlayMovie">
+            <h1 id="Play">Play</h1>
+            <h1 id="Movie">Movie</h1>
+        </div>
+        <div class="subtitulo">
+            <h2 id="sientete">Siéntete &#160;</h2> @*&#160; Es para dar un espacio*@
+            <h2 id="premium">Premium</h2>
+        </div>
+    </div>
+    <div class="Peliculas">
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/One Piece.jpg" class="imagen" alt="One Piece" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">One Piece</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Full Metal.jpg" class="imagen" alt="Full Metal" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Full Metal...</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Jujutsu Kaisen.jpg" class="imagen" alt="Jkaisen" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Jujutsu...</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Goku.jpg" class="imagen" alt="Goku" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Dragon...</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Dr. Strange.jpg" class="imagen" alt="Strange" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Dr. Strange</h4>
+            </a>
+        </div>
+    </div>
+    <div class="Peliculas">
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Proyecto X.jpg" class="imagen" alt="Proyecto X" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Proyecto X</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Son como niños.jpg" class="imagen" alt="Como Niños" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Son como niños</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Pirañaconda.jpg" class="imagen" alt="Pirañaconda" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Pirañaconda</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/John Wick.jpg" class="imagen" alt="John Wick" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">John Wick</h4>
+            </a>
+        </div>
+        <div class="Imagen">
+            <a href="https://localhost:44303/View/Description">
+                <img src="~/Imagenes/Carnada.jpg" class="imagen" alt="Carnada" />
+            </a>
+            <a href="https://localhost:44303/View/Description">
+                <h4 class="nameP">Carnada</h4>
+            </a>
+        </div>
+    </div>
+</body>
